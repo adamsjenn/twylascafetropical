@@ -102,3 +102,71 @@ footer nav ul li img {
     border: #ec7137 5px solid;
     border-radius: 50%;
 }
+
+
+
+/*-------------------------------------
+
+About Us Styling
+
+-------------------------------------*/
+
+.left-column,
+.right-column {
+    width: 45%;
+    display: inline-block;
+    padding: 20px 20px 0 20px;
+}
+
+.img-left {
+    float: left;
+    padding: 0px 10px 10px 0;
+}
+
+
+.left-column p {
+    padding-bottom: 10px;
+}
+
+.left-column p:last-of-type {
+    padding-bottom: 23px;
+}
+
+.right-column iframe {
+    padding-bottom: 10px;
+}
+
+.right-column iframe:last-of-type {
+    padding-bottom: 0;
+}
+
+.about-us h1,
+h2 {
+    font-family: 'Fugaz One', cursive;
+    color: #d95a00;
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+.single-column {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.single-column h2{
+    padding-bottom: 0px
+}
+
+.single-column p {
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.single-column a {
+    text-decoration: none;
+    color: black;
+}
+
+.single-column a:hover {   
+    color: #ff925a;
+}
