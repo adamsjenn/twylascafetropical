@@ -1,0 +1,104 @@
+/*-------------------------------------
+
+Universial Styling
+
+-------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    background-color: #aeecf8;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.header-container {
+    margin: 0 auto;
+    background-color: #aeecf8;
+    max-width: 1000px;
+    text-align: right;
+}
+
+.header-text {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.header-logo {
+    float: left;
+    padding-right: 50px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 35px;
+}
+
+header p {
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #00949d;
+    font-family: 'Righteous', cursive;
+    color: white;
+}
+
+header nav a {
+    color: #00949d;
+    font-size: 24px;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+}
+
+.header-container a {
+    padding-top: 50px;
+}
+
+header nav a:hover {   
+    color: #ff925a;
+}
+
+header nav a:active {
+    color: #d95a00;
+}
+
+.main-container {
+    max-width: 850px;
+    margin: 0 auto;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: black;
+    padding: 129px 10px 30px 10px;
+}
+
+footer {
+    background-image: url(../images/pattern.jpg);
+    margin-top: 25px;
+    padding-top: 30px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.footer-text {
+    padding: 0;
+    background-color: white;
+    padding-top: 25px;
+    font-size: 12px;
+    margin: 25px 0;
+    color: #ff925a;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 25px;
+}
+
+footer nav ul li img {
+    border: #ec7137 5px solid;
+    border-radius: 50%;
+}
