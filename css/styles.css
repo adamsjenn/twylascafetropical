@@ -53,18 +53,21 @@ header nav a {
     font-size: 24px;
     font-family: 'Righteous', cursive;
     text-decoration: none;
+    transition: .5s;
 }
 
 .header-container a {
     padding-top: 50px;
 }
 
-header nav a:hover {   
-    color: #ff925a;
+.active {
+    color: #d95a00;
+    text-decoration: underline;
 }
 
-header nav a:active {
-    color: #d95a00;
+header nav a:hover {   
+    color: #ff925a;
+    transition: .5s;
 }
 
 .main-container {
@@ -72,12 +75,31 @@ header nav a:active {
     margin: 0 auto;
     font-family: 'Quattrocento Sans', sans-serif;
     color: black;
-    padding: 129px 10px 30px 10px;
+    padding: 129px 10px 0 10px;
+}
+
+.main-container h1 {
+    font-family: 'Fugaz One', cursive;
+    color: #d95a00;
+    font-size: 38px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.main-container h2 {
+    font-family: 'Fugaz One', cursive;
+    color: #d95a00;
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+.hero {
+    margin-bottom: 35px;
 }
 
 footer {
     background-image: url(../images/pattern.jpg);
-    margin-top: 25px;
+    margin-top: 50px;
     padding-top: 30px;
     font-family: 'Quattrocento Sans', sans-serif;
     color: black;
@@ -146,15 +168,20 @@ h2 {
     color: #d95a00;
     font-size: 32px;
     padding-bottom: 10px;
+    text-align: left;
 }
 
 .single-column {
     text-align: center;
-    margin-top: 25px;
+    margin: 25px 0;
+    width: 700px;
+    margin: auto;
 }
 
 .single-column h2{
-    padding-bottom: 0px
+    margin: 20px 0 0 0;
+    padding-bottom: 0;
+    text-align: center;
 }
 
 .single-column p {
@@ -163,10 +190,125 @@ h2 {
 }
 
 .single-column a {
-    text-decoration: none;
     color: black;
+    transition: .5s;
 }
 
 .single-column a:hover {   
     color: #ff925a;
+    transition: .5s;
+}
+
+/*-------------------------------------
+
+Events Main Page Styling
+
+-------------------------------------*/
+.blue-heading h1 {
+    color: #00949d;
+}
+
+.green-heading h2 {
+    color: #00bda3;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.calendar {
+    width: 850px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+table thead {
+    background-color: #008476;
+}
+
+table thead tr th {
+    padding: 5px 10px;
+    width: 90px;
+    color: white;
+    font-weight: bold;
+}
+
+.numbers tr td {
+    padding: 5px;
+    text-align: right;
+    border-right: 1px solid #d95a00;
+    border-left: 1px solid #d95a00;
+    width: 100px;
+}
+
+.events tr td {
+    padding: 5px;
+    text-align: center;
+    border-right: 1px solid #d95a00;
+    border-left: 1px solid #d95a00;
+    border-bottom: 1px solid #d95a00;
+    height: 90px;
+    vertical-align: top;
+    width: 105px;
+}
+
+.events tr td p {
+    font-size: 12px;
+}
+
+.events tr td a {
+    color:#008476;
+    font-size: 12px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.events tr td a:hover {
+    color:#d95a00;
+    font-size: 12px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.event-left, .event-right, .event-center {
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    text-align: center;
+}
+
+.button {
+    background-color: #008476;
+    font-family: 'Fugaz One', cursive;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    background-color: #aeecf8;
+    font-family: 'Fugaz One', cursive;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    transition: .5s;
+}
+
+.button a:hover {
+    text-decoration: none;
+    color: #008476;
+    transition: .5s;
 }
