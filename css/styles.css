@@ -71,12 +71,15 @@ header nav a:hover {
 }
 
 .main-container {
-    max-width: 850px;
+    max-width: 1000px;
     margin: 0 auto;
     font-family: 'Quattrocento Sans', sans-serif;
     color: black;
+    font-size: 16px;
     padding: 129px 10px 0 10px;
 }
+
+/*-------------------------------------
 
 .main-container h1 {
     font-family: 'Fugaz One', cursive;
@@ -92,6 +95,8 @@ header nav a:hover {
     font-size: 32px;
     padding-bottom: 10px;
 }
+
+-------------------------------------*/
 
 .hero {
     margin-bottom: 35px;
@@ -138,6 +143,11 @@ About Us Styling
     width: 45%;
     display: inline-block;
     padding: 20px 20px 0 20px;
+    vertical-align: top;
+}
+
+.right-column {
+    margin-left: 15px;
 }
 
 .img-left {
@@ -173,9 +183,7 @@ h2 {
 
 .single-column {
     text-align: center;
-    margin: 25px 0;
-    width: 700px;
-    margin: auto;
+    margin: 25px;
 }
 
 .single-column h2{
@@ -205,7 +213,11 @@ Events Main Page Styling
 
 -------------------------------------*/
 .blue-heading h1 {
+    font-family: 'Fugaz One', cursive;
     color: #00949d;
+    font-size: 38px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 .green-heading h2 {
@@ -216,8 +228,6 @@ Events Main Page Styling
 }
 
 .calendar {
-    width: 850px;
-    margin: 0 auto;
     padding: 40px 20px;
 }
 
@@ -232,7 +242,7 @@ table thead {
 
 table thead tr th {
     padding: 5px 10px;
-    width: 90px;
+    width: 120px;
     color: white;
     font-weight: bold;
 }
@@ -242,7 +252,7 @@ table thead tr th {
     text-align: right;
     border-right: 1px solid #d95a00;
     border-left: 1px solid #d95a00;
-    width: 100px;
+    width: 120px;
 }
 
 .events tr td {
@@ -253,7 +263,7 @@ table thead tr th {
     border-bottom: 1px solid #d95a00;
     height: 90px;
     vertical-align: top;
-    width: 105px;
+    width: 120px;
 }
 
 .events tr td p {
@@ -311,4 +321,184 @@ table thead tr th {
     text-decoration: none;
     color: #008476;
     transition: .5s;
+}
+
+/*-------------------------------------
+
+Home Page Styling
+
+-------------------------------------*/
+
+.gallery {
+    width: 1000px;
+}
+
+.gallery img {
+    width: 322px;
+    padding: 4px;
+}
+
+.home-heading h1 {
+    font-family: 'Righteous', cursive;
+    color: #d95a00;
+    font-size: 38px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.three-column-home {
+    margin-bottom: 40px;
+}
+
+.three-column-home h2 {
+    color: #d95a00;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.home-image {
+    position: relative;
+}
+
+.home-image img.hover-image{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    margin-left: 39px;
+    transition: opacity .2s;
+}
+
+.home-image img.hover-image:hover {
+    opacity: 1;
+  }
+
+/*-------------------------------------
+.event-left img:hover,
+.event-right img:hover,
+.event-center img:hover {
+    border: 2px solid #d95a00;
+    border-radius: 50%;
+    opacity: 50%;
+}
+
+Review Section Animation Styling
+
+-------------------------------------*/
+.reviews h2 {
+    text-align: center;
+    padding-bottom: 0;
+    margin-top: 18px;
+}
+
+.reviews p {
+    font-size: 25px;
+    color: #00949d;
+}
+
+.quote-mark {
+    font-size: 35px;
+    font-family: 'Fugaz One', cursive;
+    color: #f2ce7b;
+}
+
+.reviews {
+    position: relative;
+    margin: 5px 40px 40px 40px;
+    max-width: 1000px;
+    height: 300px;
+    border-top: 2px solid #f2ccaf;
+    border-bottom: 2px solid #f2ccaf;
+}
+
+.review-one {
+    position: absolute;
+    width: 900px;
+    text-align: center;
+    animation: show 12s infinite ease-in-out;
+}
+
+.review-two {
+    position: absolute;
+    width: 900px;
+    text-align: center;
+    animation: invisible 12s infinite ease-in-out;
+}
+
+.review-three {
+    position: absolute;
+    width: 900px;
+    text-align: center;
+    animation: invisible-two 12s infinite ease-in-out;
+}
+
+@keyframes show {
+    0% {
+        opacity: 100%;
+    }
+
+    32% {
+        opacity: 100%;
+    }
+
+    33% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+}
+
+@keyframes invisible {
+    0% {
+        opacity: 0%;
+    }
+
+    32% {
+        opacity: 0%;
+    }
+
+    33% {
+        opacity: 100%;
+    }
+
+    65% {
+        opacity: 100%;
+    }
+
+    66% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+}
+
+
+@keyframes invisible-two {
+    0% {
+        opacity: 0%;
+    }
+
+    65% {
+        opacity: 0%;
+    }
+
+    66% {
+        opacity: 100%;
+    }
+
+    99% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
 }
