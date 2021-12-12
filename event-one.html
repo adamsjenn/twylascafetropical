@@ -38,8 +38,74 @@
 
     <main class="main-container">
         <section>
-            <img src="./images/about-hero.jpg" alt="Twyla Serves Customers" title="Twyla with Customers">
+            <img src="./images/singles-week.jpg" alt="Singles at Last Year's Event" title="Singles' Week">
         </section>
+
+        <section class="event-content">
+
+          <h1>SINGLES' WEEK</h1>
+
+          <h3>Thursday, December 16th to Sunday, December 19th</h3>
+
+          <p>The week you’ve been waiting all year for is almost here! It’s Singles’ Week! Find the love of your life at our four-day long match making event. Throughout the week, you will participate in games and activities to get you talking and connecting with other singles at the event. You just might find your life partner!</p>
+
+          <p>Please register below for Singles’ Week. Only those registered will be able to participate in the event. In addition, show your registration confirmation to the Rosebud Motel and enjoy 10% off of your stay!</p>
+        </section>
+
+        <section class="event-register">
+
+          <h2>REGISTER FOR SINGLES' WEEK</h2>
+
+          <form class="contact-form" id="test_form" name="test_form" method="post" action="form.php" onsubmit="return validateForm(this)">
+
+            <div class="first-name input-section">
+                <label for="firstname"> First Name:</label>
+                <input type="text" name="firstname" id="firstname">
+
+            </div>
+
+            <div class="last-name input-section">
+                <label for="lastname"> Last Name:</label>
+                <input type="text" name="lastname" id="lastname">
+            </div>
+
+            <div class="email input-section">
+                <label for="email"> Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="telephone input-section">
+                <label for="telephone"> Telephone:</label>
+                <input type="tel" name="telephone" id="telephone">
+            </div>
+
+            <div class="checkbox input-section">
+                <h3>I'm interested in:</h3>
+
+                <input type="checkbox" name="interest" value="men" id="men"><label for="webdesign">Men</label><br>
+
+                <input type="checkbox" name="interest" value="women" id="women"><label for="women">Women</label><br>
+
+                <input type="checkbox" name="interest" value="everyone" id="everyone"><label for="everyone">Everyone</label><br>
+            </div>
+
+            <div class="comments input-section">
+                <label for="comments" class="label-input-wrap"> What qualities are you looking for in a partner?</label>
+                <textarea name="comments" id="comments" cols="65" rows="5"></textarea>
+            </div>
+
+            <div class="comments input-section">
+              <label for="comments" class="label-input-wrap"> What are your preferred pronouns?</label>
+              <textarea name="comments" id="comments" cols="65" rows="1"></textarea>
+          </div>
+
+            <div class="submit input-section">
+                <input type="submit" value="Submit">
+            </div>
+
+        </form>
+        </section>
+        <br>
 
     </main>
 

@@ -104,7 +104,6 @@ header nav a:hover {
 
 footer {
     background-image: url(../images/pattern.jpg);
-    margin-top: 50px;
     padding-top: 30px;
     font-family: 'Quattrocento Sans', sans-serif;
     color: black;
@@ -184,6 +183,7 @@ h2 {
 .single-column {
     text-align: center;
     margin: 25px;
+    margin-bottom: 50px;
 }
 
 .single-column h2{
@@ -205,6 +205,18 @@ h2 {
 .single-column a:hover {   
     color: #ff925a;
     transition: .5s;
+}
+
+details summary {
+    padding-top: 5px;
+    color: #ff925a;
+    font-weight: bold;
+}
+
+details p {
+    padding-top: 5px;
+    font-size: 14px;
+    margin-left: 15px;
 }
 
 /*-------------------------------------
@@ -325,17 +337,138 @@ table thead tr th {
 
 /*-------------------------------------
 
+Event Info Page Styling
+
+-------------------------------------*/
+
+.event-content {
+    margin: 40px 25px;
+}
+
+.event-content h1{
+    font-family: 'Fugaz One', cursive;
+    color: #00949d;
+    font-size: 35px;
+}
+
+.event-content p {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.event-content h3 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #d95a00;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+.event-content h1::first-letter {
+    font-family: 'Fugaz One', cursive;
+    color: #00949d;
+    font-size: 50px;
+}
+
+.event-content ul li {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.event-content ul {
+    list-style-type: none;
+}
+
+.event-register {
+    border-radius: 8px;
+    color: black;
+    margin: 40px 25px;
+}
+
+.event-register h2 {
+    font-family: 'Fugaz One', cursive;
+    color: #00bda3;
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.event-register h3 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: black;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.submit input {
+    background: #008476;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.submit input:hover {
+    background: #d95a00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+input {
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-left: 7px;
+    background-color: #d8d8d8;
+}
+
+.input-section {
+    margin-bottom: 10px;
+}
+
+textarea {
+    font-family: 'Quattrocento Sans', sans-serif;
+    padding: 10px 10px;
+    border-radius: 4px;
+    background-color: #d8d8d8;
+    margin-top: 5px;
+    display: block;
+}
+
+select {
+    width: 185px;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.radiobutton input,
+.checkbox input {
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+/*-------------------------------------
+
 Menu Page Styling
 
 -------------------------------------*/
 
 .main-container-menu {
+    background-image: url(../images/pattern-green.png);
     max-width: 1000px;
     margin: 0 auto;
     font-family: 'Quattrocento Sans', sans-serif;
     color: black;
     font-size: 18px;
-    padding: 129px 10px 0 10px;
+    font-weight: bold;
+    padding: 129px 10px;
 }
 
 .menu-heading h1 {
@@ -389,10 +522,11 @@ p.food-item {
 
 .menu-left h2{
     padding-top: 40px;
-    color: #ff925a;
+    color: #d95a00;
     font-family: 'Fugaz One', cursive;
     font-size: 25px;
 }
+
 
 #specials,
 #drinks,
@@ -406,6 +540,10 @@ p.food-item {
 #entree,
 #dessert {
     scroll-margin-top: 100px;
+}
+
+#top {
+    scroll-margin-top: 200px;
 }
 
 .food {
@@ -454,6 +592,7 @@ Home Page Styling
 
 .gallery {
     width: 1000px;
+    margin-bottom: 50px;
 }
 
 .gallery img {
