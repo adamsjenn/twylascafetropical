@@ -325,6 +325,129 @@ table thead tr th {
 
 /*-------------------------------------
 
+Menu Page Styling
+
+-------------------------------------*/
+
+.main-container-menu {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: black;
+    font-size: 18px;
+    padding: 129px 10px 0 10px;
+}
+
+.menu-heading h1 {
+    font-family: 'Fugaz One', cursive;
+    color: #008476;
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar {
+    height: 400px;
+    width: 250px;
+    margin-top: 95px;
+    margin-right: 275px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 40px;
+    }
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    color: #00949d;
+    font-size: 22px;
+    display: block;
+    padding-top: 2px;
+    }
+
+.sidebar ul li a:hover {
+    color: #f2ccaf;
+}
+
+.menu-left {
+    margin-right: 400px;
+    margin-left: 100px;
+}
+
+.menu-left p {
+    padding-bottom: 10px;
+}
+
+p.food-item {
+    padding-bottom: 0;
+}
+
+.menu-left h2{
+    padding-top: 40px;
+    color: #ff925a;
+    font-family: 'Fugaz One', cursive;
+    font-size: 25px;
+}
+
+#specials,
+#drinks,
+#smoothie,
+#wine,
+#beverage,
+#breakfast,
+#apps,
+#salad,
+#handhelds,
+#entree,
+#dessert {
+    scroll-margin-top: 100px;
+}
+
+.food {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.food-item p {
+    padding-bottom: 0px;
+}
+
+
+/*-------------------------------------
+
+.menu-right {
+    width: 30%;
+}
+
+.menu-right,
+.menu-left {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.menu-right ul {
+    list-style-type: none;
+}
+
+.menu-right ul li a {
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    color: #00949d;
+    font-size: 22px;
+    padding: 10px 0;
+}
+.menu-right ul li:before {
+    content:"•";
+    font-size: 50px;
+    color: #f2ce7b;
+    display: inline-block;
+}
+
 Home Page Styling
 
 -------------------------------------*/
@@ -377,18 +500,6 @@ Home Page Styling
     opacity: 1;
   }
 
-/*-------------------------------------
-.event-left img:hover,
-.event-right img:hover,
-.event-center img:hover {
-    border: 2px solid #d95a00;
-    border-radius: 50%;
-    opacity: 50%;
-}
-
-Review Section Animation Styling
-
--------------------------------------*/
 .reviews h2 {
     text-align: center;
     padding-bottom: 0;
