@@ -103,6 +103,7 @@ header nav a:hover {
     font-size: 24px;
     padding-bottom: 10px;
     text-align: center;
+    margin: 40px 0;
 }
 
 .form-setup h2 {
@@ -110,6 +111,7 @@ header nav a:hover {
     color: #d95a00;
     font-size: 18px;
     padding-bottom: 10px;
+    margin: 40px 0;
 }
 
 .hero {
