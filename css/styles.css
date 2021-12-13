@@ -79,24 +79,21 @@ header nav a:hover {
     padding: 129px 10px 0 10px;
 }
 
-/*-------------------------------------
 
-.main-container h1 {
+.form-setup h1 {
     font-family: 'Fugaz One', cursive;
     color: #d95a00;
-    font-size: 38px;
+    font-size: 24px;
     padding-bottom: 10px;
     text-align: center;
 }
 
-.main-container h2 {
+.form-setup h2 {
     font-family: 'Fugaz One', cursive;
     color: #d95a00;
-    font-size: 32px;
+    font-size: 18px;
     padding-bottom: 10px;
 }
-
--------------------------------------*/
 
 .hero {
     margin-bottom: 35px;
@@ -154,6 +151,10 @@ About Us Styling
     padding: 0px 10px 10px 0;
 }
 
+.right-column iframe {
+    width: 445px;
+    height: 250px;
+}
 
 .left-column p {
     padding-bottom: 10px;
@@ -224,19 +225,19 @@ details p {
 Events Main Page Styling
 
 -------------------------------------*/
-.blue-heading h1 {
+.three-column h2 {
+    color: #00bda3;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.three-column h1 {
     font-family: 'Fugaz One', cursive;
     color: #00949d;
     font-size: 38px;
     padding-bottom: 10px;
     text-align: center;
-}
-
-.green-heading h2 {
-    color: #00bda3;
-    font-size: 24px;
-    text-align: center;
-    padding-top: 20px;
 }
 
 .calendar {
@@ -304,7 +305,9 @@ table thead tr th {
     text-align: center;
 }
 
-.button {
+.three-column a {
+    text-decoration: none;
+    color: white;
     background-color: #008476;
     font-family: 'Fugaz One', cursive;
     font-size: 16px;
@@ -315,25 +318,18 @@ table thead tr th {
     margin-top: 35px;
 }
 
-.button a {
-    text-decoration: none;
-    color: white;
-}
-
-.button:hover {
+.three-column a:hover {
     background-color: #aeecf8;
     font-family: 'Fugaz One', cursive;
     font-size: 16px;
     padding: 10px 15px;
     border-radius: 25px;
     transition: .5s;
-}
-
-.button a:hover {
     text-decoration: none;
     color: #008476;
     transition: .5s;
 }
+
 
 /*-------------------------------------
 
@@ -471,7 +467,7 @@ Menu Page Styling
     padding: 129px 10px;
 }
 
-.menu-heading h1 {
+.main-container-menu h1 {
     font-family: 'Fugaz One', cursive;
     color: #008476;
     font-size: 35px;
@@ -558,34 +554,6 @@ p.food-item {
 
 /*-------------------------------------
 
-.menu-right {
-    width: 30%;
-}
-
-.menu-right,
-.menu-left {
-    vertical-align: top;
-    display: inline-block;
-}
-
-.menu-right ul {
-    list-style-type: none;
-}
-
-.menu-right ul li a {
-    text-decoration: none;
-    font-family: 'Righteous', cursive;
-    color: #00949d;
-    font-size: 22px;
-    padding: 10px 0;
-}
-.menu-right ul li:before {
-    content:"•";
-    font-size: 50px;
-    color: #f2ce7b;
-    display: inline-block;
-}
-
 Home Page Styling
 
 -------------------------------------*/
@@ -600,7 +568,7 @@ Home Page Styling
     padding: 4px;
 }
 
-.home-heading h1 {
+.three-column-home h1 {
     font-family: 'Righteous', cursive;
     color: #d95a00;
     font-size: 38px;

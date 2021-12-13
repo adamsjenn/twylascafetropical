@@ -13,19 +13,140 @@
     </script>
 
     <meta charset="utf-8">
-    <meta name="keywords" content="schitts creek bar, karaoke"/>
-    <meta name="description" content="The first saturday of every month is karaoke night at Twyla's Café Tropical with DJ Ray!"/>
-    <title>Events-Twyla's Café Tropical</title>
+    <title>Twyla's Café Tropical</title>
     <link rel="shortcut icon" href="images/favicon.ico">
 
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Quattrocento+Sans&family=Righteous&display=swap" rel="stylesheet">
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
-  </head>
-  <body>
-    
+header {
+    background-color: #aeecf8;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.header-container {
+    margin: 0 auto;
+    background-color: #aeecf8;
+    max-width: 1000px;
+    text-align: right;
+}
+
+.header-text {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.header-logo {
+    float: left;
+    padding-right: 50px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 35px;
+}
+
+header p {
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #00949d;
+    font-family: 'Righteous', cursive;
+    color: white;
+}
+
+header nav a {
+    color: #00949d;
+    font-size: 24px;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.header-container a {
+    padding-top: 50px;
+}
+
+.active {
+    color: #d95a00;
+    text-decoration: underline;
+}
+
+header nav a:hover {   
+    color: #ff925a;
+    transition: .5s;
+}
+
+.main-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: black;
+    font-size: 16px;
+    padding: 129px 10px 0 10px;
+}
+
+
+.form-setup h1 {
+    font-family: 'Fugaz One', cursive;
+    color: #d95a00;
+    font-size: 24px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.form-setup h2 {
+    font-family: 'Fugaz One', cursive;
+    color: #d95a00;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.hero {
+    margin-bottom: 35px;
+}
+
+footer {
+    background-image: url(../images/pattern.jpg);
+    padding-top: 30px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.footer-text {
+    padding: 0;
+    background-color: white;
+    padding-top: 25px;
+    font-size: 12px;
+    margin: 25px 0;
+    color: #ff925a;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 25px;
+}
+
+footer nav ul li img {
+    border: #ec7137 5px solid;
+    border-radius: 50%;
+}
+</style>
+</head>
+
+<body>
+
 <header>
     <p>4200 Main St., Schitt's Creek, ON L0C 1A0, Canada</p>
 
@@ -47,33 +168,16 @@
       </div>
 
       </div>
-
 </header>
 
-    <main class="main-container">
-        <section>
-            <img src="./images/karaoke.jpg" alt="Man and Woman Singin Karaoke" title="David Rose Sings Karaoke">
-        </section>
+<main class="main-container">
+    <section class="form-setup">
+        <h1>Sorry something went wrong with your submission</h1>
+        <p> Please try again.</p>
+    </section>
 
-        <section class="event-content">
-        <h1>KARAOKE</h1>
-
-        <p>We host karaoke on the first Saturday of every month from 8:00pm to midnight! Our DJ, Ray, has a specially curated library of music to chose from. Sing your heart out to these classics:</p>
-
-        <ul>
-          <li><em>Total Eclipse of the Heart</em>- Bonnie Tyler</li>
-          <li><em>Tequila Sunrise</em>- The Eagles</li>
-          <li><em>One Week</em>- The Barenaked Ladies</li>
-          <li><em>I’m Every Woman</em>- Chaka Khan</li>
-          <li><em>The Best</em>-Tina Turner</li>
-          <li><strong>and many more!</strong></li>
-        </ul>
-        <p>In addition to karaoke night, enjoy our featured drink special. This month, it’s bottomless Irish Car bombs for $15!</p>
-      </section>
-
-    </main>
-
-  <footer>
+</main>
+<footer>
     <nav>
       <ul>
         <li><a href="https://twitter.com/schittscreek?lang=en" target="_blank"><img src="./images/twitter.png" alt="Twitter Logo" width="50"></a></li>
